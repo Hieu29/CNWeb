@@ -1,5 +1,8 @@
 <?php
     session_start();
+if(isset($_SESSION["check"])){
+    $name=$_SESSION['check'];
+}
     ob_start();
 ?>
 <!DOCTYPE html>
@@ -20,9 +23,6 @@
    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 </head>
 <body>
-     
-           
-          
     <div id="wrapper">
          <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="adjust-nav">
@@ -43,9 +43,9 @@
                   <a href="index.php?mod=user&act=logout" style="color:#fff;">Đăng Xuất</a>  
                 </span>
                 <?php
-                    if(isset($_SESSION["lgUserName"])){
+                    if(isset($_SESSION["check"])){
                         echo "<span class=\"logout-spn\" >
-                  <a href=\"#\" style=\"color:#fff;\">Xin Chào {$_SESSION["lgUserName"]}</a>  
+                  <a href=\"#\" style=\"color:#fff;\">Xin Chào {$_SESSION["check"]}</a>  
                 </span>";
                     }
                 ?>

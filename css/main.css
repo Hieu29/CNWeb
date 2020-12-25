@@ -4,7 +4,12 @@
 
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
-
+.logo{
+  width: 250px;
+}
+/*.logo img{*/
+/*  width: 100px;*/
+/*}*/
 @font-face {
   font-family: Poppins-Regular;
   src: url('../fonts/poppins/Poppins-Regular.ttf'); 

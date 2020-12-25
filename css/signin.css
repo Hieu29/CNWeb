@@ -1,0 +1,54 @@
+.form{
+    left: 40%;
+    top: 120px;
+    height: 50%;
+    width: 25%;
+    background: lavender;
+    position: relative;
+    text-align:left;
+    box-shadow: 5px 10px 15px black;
+}
+body{
+    height: 100%;
+    wight: 100%;
+    background: rgba(18, 219, 65, 0.99);
+}
+.labeltext{
+    font-style: italic;
+    font-size: 1.5em;
+    position: relative;
+    top: 25px;
+    left:30px;
+}
+.txtuser ,.txtpass{
+    position: relative;
+    height: 10%;
+    width: 70%;
+    border-radius: 5px;
+}
+.btnL{
+    margin: 10px;
+    height: 50px;
+    wight: 40px;
+    position: relative;
+    top: 100px;
+    left: 20%;
+    background: rgba(18, 219, 65, 0.99);
+}
+button:hover{
+    background: #0b2e13;
+    color: #ffffff;
+}
+.txtuser{
+    position: relative;
+    top:20px;
+}
+.txtpass{
+    position: relative;
+    top:70px;
+}
+#pass{
+    position: relative;
+    top:50px;
+}
+

@@ -33,7 +33,7 @@
             <div class="container">
                <div class="row">
                   <div class="col-md-2 col-sm-2">
-                     <div class="logo"><a href="index.html"><img src="images/logo.png" alt="FlatShop"></a></div>
+                     <div class="logo" style="width: 250px;"><img src="images/icons/logoweb.png" alt="FlatShop"></a></div>
                   </div>
                   <div class="col-md-10 col-sm-10">
                      <div class="header_top">
@@ -61,7 +61,7 @@
                            </div>
                            <div class="col-md-6">
                               <ul class="topmenu">
-                                 <li><a href="index.php?mod=user&act=aboutus">About Us</a></li>
+                                 <li><a href="index.php?mod=user&act=aboutus">Thông tin</a></li>
                                  <li><a href="index.php?mod=order&act=history">Lịch sử đặt hàng</a></li>
                               </ul>
                            </div>
@@ -70,7 +70,7 @@
 <?php
                // echo $_SESSION['lgUserID'];
                if(isset($_SESSION['lgUserID']) ){ 
-                  if($_SESSION['lgUserID']==1){
+                  if($_SESSION['lgGroupID']==1){
                      echo "<li><a href=\"admin.php\" class=\"log\">Quản trị</a></li>";
                   }
                   else

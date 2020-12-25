@@ -8,10 +8,10 @@
       <li class="col-12 col-md-6 col-lg-3">
           <div class="cnt-block equal-hight" style="height: 349px;">
             <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt=""></figure>
-            <h3><a href="https://www.facebook.com/trannqt">Nguyễn Quang Trường Trận</a></h3>
-            <p>43.01.104.186</p>
+            <h3><a href="https://www.facebook.com/profile.idTTWinerArt.cshtml/">Trương Thanh Tâm</a></h3>
+            <p>44.01.104.190</p>
             <ul class="follow-us clearfix">
-              <li><a href="https://www.facebook.com/trannqt"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.facebook.com/profile.idTTWinerArt.cshtml/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
               <li><a href="https://twitter.com/?lang=vi"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
               <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
             </ul>
@@ -20,34 +20,34 @@
       <li class="col-12 col-md-6 col-lg-3">
           <div class="cnt-block equal-hight" style="height: 349px;">
             <figure><img src="http://www.webcoderskull.com/img/team1.png" class="img-responsive" alt=""></figure>
-            <h3><a href="https://www.facebook.com/profile.php?id=100007075988750">Hà Nguyễn Duy</a></h3>
+            <h3><a href="https://www.facebook.com/iamqdk">Quách Đăng Khoa</a></h3>
             <p>43.01.104.035</p>
             <ul class="follow-us clearfix">
-              <li><a href="https://www.facebook.com/profile.php?id=100007075988750"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.facebook.com/iamqdk"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
               <li><a href="https://twitter.com/?lang=vi"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
               <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
             </ul>
           </div>
       </li>
-      <!-- <li class="col-12 col-md-6 col-lg-3">
+      <li class="col-12 col-md-6 col-lg-3">
           <div class="cnt-block equal-hight" style="height: 349px;">
             <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt=""></figure>
-            <h3><a href="https://www.facebook.com/kaitokid1999">Trịnh Đăng Tuyên</a></h3>
-            <p>43.01.104.203</p>
+            <h3><a href="https://www.facebook.com/kimhieu1314">Trần Kim Hiếu</a></h3>
+            <p>massv</p>
             <ul class="follow-us clearfix">
-              <li><a href="https://www.facebook.com/kaitokid1999"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.facebook.com/kimhieu1314"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
               <li><a href="https://twitter.com/?lang=vi"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
               <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
             </ul>
           </div>
-       </li> -->
+       </li>
       <li class="col-12 col-md-6 col-lg-3">
           <div class="cnt-block equal-hight" style="height: 349px;">
             <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt=""></figure>
-            <h3><a href="https://www.facebook.com/sang.demons">Nguyễn Hoàng Tuấn</a></h3>
+            <h3><a href="https://www.facebook.com/profile.php?id=100008530577426">Phan Thanh Hửu</a></h3>
             <p>43.01.104.</p>
             <ul class="follow-us clearfix">
-              <li><a href="https://www.facebook.com/sang.demons"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.facebook.com/profile.php?id=100008530577426"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
               <li><a href="https://twitter.com/?lang=vi"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
               <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
             </ul>

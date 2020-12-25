@@ -3,7 +3,7 @@
 		private $link;//bien ket noi csdl
 		function __construct()
 		{
-			$this->link=mysqli_connect("localhost","root","","cnweb");
+			$this->link=mysqli_connect("127.0.0.1","root","","shoponline");
 		}
 		function ExecuteQuery($sql)
 		{
