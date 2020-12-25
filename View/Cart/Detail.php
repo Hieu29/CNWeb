@@ -80,10 +80,10 @@ EOD;
                   <tr>
                     <td colspan="6">
                       <button class="pull-left">
-                        Continue Shopping
+                        <a href="index.php?mod=products&act=gridproducts">Continue Shopping</a>
                       </button>
                       <button class=" pull-right">
-                        Update Shopping Cart
+                        <a href="Controller/Cart/Add.php?id={$res['ProductID']}" onclick="return insertCart({$res['ProductID']})">Update Shopping Cart</a>
                       </button>
                     </td>
                   </tr>
@@ -96,27 +96,7 @@ EOD;
                   <div class="shippingbox">
                     
 
-<?php
-    $chuoi=<<<EOD
-    <h5>
-        MÃ GIẢM GIÁ
-    </h5>
-    <p>Nhập mã giảm giá hôm nay: 
-EOD;
-    echo $chuoi;
-    include_once("Controller/Products/giamgia.php");
-    if($code<=0){
-        echo "HÔM NAY KHÔNG CÓ MÃ GIẢM GIÁ";
-    }
-    else{
-        echo $date;
-        echo " để giảm ngay ";
-        echo $code["Value"];
-        echo "</p>";
 
-        echo "<h4>{$code["Code"]}</h4>";
-    }
-?>   
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">

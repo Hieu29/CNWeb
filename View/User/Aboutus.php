@@ -33,7 +33,7 @@
           <div class="cnt-block equal-hight" style="height: 349px;">
             <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt=""></figure>
             <h3><a href="https://www.facebook.com/kimhieu1314">Trần Kim Hiếu</a></h3>
-            <p>massv</p>
+            <p>43.01.104.051</p>
             <ul class="follow-us clearfix">
               <li><a href="https://www.facebook.com/kimhieu1314"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
               <li><a href="https://twitter.com/?lang=vi"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -45,7 +45,7 @@
           <div class="cnt-block equal-hight" style="height: 349px;">
             <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt=""></figure>
             <h3><a href="https://www.facebook.com/profile.php?id=100008530577426">Phan Thanh Hửu</a></h3>
-            <p>43.01.104.</p>
+            <p>43.01.104.64</p>
             <ul class="follow-us clearfix">
               <li><a href="https://www.facebook.com/profile.php?id=100008530577426"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
               <li><a href="https://twitter.com/?lang=vi"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>

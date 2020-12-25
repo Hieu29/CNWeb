@@ -89,7 +89,7 @@ if(isset($accessToken)){
 ?>
 <html>
 <head>
-<title>Login with Facebook using PHP by CodexWorld</title>
+<title>N123zshop.com</title>
 <style type="text/css">
     h1{font-family:Arial, Helvetica, sans-serif;color:#999999;}
 </style>

@@ -6,11 +6,11 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-      <meta name="description" content="">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="shortcut icon" href="images/favicon.png">
-      <title>Welcome to FlatShop</title>
+      
 
       
       <script type="text/javascript" src="js/function1.js"></script>
@@ -143,18 +143,18 @@ EOD;
 </script>
 
                            <!--cart hover-->
-                           <li class="option-cart">
-                              <a href="index.php?mod=Cart&act=Detail" class="cart-icon">cart <span class="cart_no" id="giohang">
-                                 <?php
-                                    if(isset($_SESSION['mycart'])){
-                                       echo count($_SESSION["mycart"]);
-                                    }
-                                    else{
-                                       echo "0";
-                                    }
-                                 ?>
-                              </span></a>
-                              <ul class="option-cart-item">
+<li class="option-cart">
+  <a href="index.php?mod=Cart&act=Detail" class="cart-icon">cart <span class="cart_no" id="giohang">
+     <?php
+        if(isset($_SESSION['mycart'])){
+           echo count($_SESSION["mycart"]);
+        }
+        else{
+           echo "0";
+        }
+     ?>
+  </span></a>
+  <ul class="option-cart-item">
 <?php
 // include_once("Controller/Cart/cartmini.php");
 if(isset($_SESSION["mycart"])){
@@ -186,7 +186,7 @@ $total=0;
 EOD;
       echo $chuoi;
     }
- }
+}
 
 ?>
 
@@ -203,24 +203,24 @@ EOD;
                                        </div>
                                     </div>
                                  </li> -->
-                                 <li><span class="total">Total <strong><?php if(isset($_SESSION["mycart"])){echo $total;} ?></strong></span>
-                                    <button class="checkout"><a href="index.php?mod=Cart&act=checkout">CheckOut</a></button></li>
-                              </ul>
-                           </li>
-                           <!--end cart-->
-                        </ul>
-                        <div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
-                        <div class="navbar-collapse collapse">
-                           <ul class="nav navbar-nav">                             
-                              <li><a href="index.php">trang chủ</a></li>
-                              <li><a href="index.php?mod=products&act=gridproducts">sản phẩm</a></li>
-                           
-                              <li><a href="index.php?mod=cart&act=detail">giỏ hàng</a></li>
-                            
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
+                         <li><span class="total">Total <strong><?php if(isset($_SESSION["mycart"])){echo $total;} ?></strong></span>
+                            <button class="checkout"><a href="index.php?mod=Cart&act=checkout">CheckOut</a></button></li>
+                      </ul>
+                   </li>
+                   <!--end cart-->
+                </ul>
+                <div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
+                <div class="navbar-collapse collapse">
+                   <ul class="nav navbar-nav">                             
+                      <li><a href="index.php">trang chủ</a></li>
+                      <li><a href="index.php?mod=products&act=gridproducts">sản phẩm</a></li>
+                   
+                      <li><a href="index.php?mod=cart&act=detail">giỏ hàng</a></li>
+                    
+                   </ul>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
