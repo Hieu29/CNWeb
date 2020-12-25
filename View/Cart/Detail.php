@@ -3,7 +3,7 @@
         echo "<a href=\"index.php?mod=products&act=gridproducts\"><button class=\"btn btn-danger\" type=\"submit\"><h3>MỜI BẠN TIẾP TỤC MUA HÀNG</h3></button></a>";
     }
 ?>
-
+<body>
       <div class="container_fullwidth">
         <div class="container shopping-cart">
           <div class="row">
@@ -187,8 +187,7 @@ EOD;
                           Đặt hàng
                     </button>
                     </a>
-                    <script src="https://www.paypal.com/sdk/js?client-id=sb"></script>
-<script>paypal.Buttons().render('body');</script>
+                    <div id="paypal-button-container"></div>
 EOD;
                    echo $chuoi1;
                }
@@ -301,3 +300,30 @@ EOD;
       </div>
       <div class="clearfix">
       </div>
+      <script src="https://www.paypal.com/sdk/js?client-id=AbDCvgGQ6AFsoY6rFxuIfmiE1bCJn0vjHQzsgslZJQx-5wDpmNT3ao5IbVoPpWcuuZQS-1_Z4ZlwuNl1&currency=USD"></script>   
+ <script>
+        // Render the PayPal button into #paypal-button-container
+         paypal.Buttons({
+
+            // Set up the transaction
+            createOrder: function(data, actions) {
+                return actions.order.create({
+                    purchase_units: [{
+                        amount: {
+                            value: '<?php $currency=25000.00; echo $total/$currency; ?>'
+                        }
+                    }]
+                });
+            },
+
+            // Finalize the transaction
+            onApprove: function(data, actions) {
+                return actions.order.capture().then(function(details) {
+                    // Show a success message to the buyer
+                    alert('Thanh toán thành công! Cảm ơn quý khách ' + details.payer.name.given_name + '!');
+                });
+            }
+
+        }).render('#paypal-button-container');
+    </script>
+</body>
