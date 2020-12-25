@@ -310,7 +310,7 @@ EOD;
                 return actions.order.create({
                     purchase_units: [{
                         amount: {
-                            value: '<?php $currency=10000000.00; echo $total/$currency; ?>'
+                            value: '<?php $currency=25000.00; echo $total/$currency; ?>'
                         }
                     }]
                 });
