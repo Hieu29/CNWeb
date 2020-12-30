@@ -13,7 +13,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tech-equipment.com</title>
+    <title>N123z.com</title>
 
 
     <!-- Google Fonts -->
@@ -99,7 +99,7 @@ EOD;
         
                 <div style="background-color: #808080; font-weight: bold;"class="navbar-collapse collapse">
                     <ul type="disc" class="nav navbar-nav">
-                        <li><a style="color: #ff6600; font-family: fantasy;font-size: 25px;background-color: #000"  href="index.php">TECH-EQUIPMENT</a></li>
+                        <li><a style="color: #ff6600; font-family: fantasy;font-size: 25px;background-color: #000"  href="index.php">TECH-N123z Shop</a></li>
                         <li>
                             <?php include_once("Controller/Products/Search.php") ?>
                         </li>

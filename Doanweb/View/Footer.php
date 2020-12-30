@@ -70,7 +70,7 @@ EOD;
             <div class="row">
                 <div class="col-md-8">
                     <div class="copyright">
-                        <p><span style="color: orange;">Tech-equipment.com - Team123</span> <a href="index.php" target="_blank">Tech-equipment.com</a></p>
+                        <p><span style="color: orange;">N123z.com - TeamN123z</span> <a href="index.php" target="_blank">N123z.com</a></p>
                     </div>
                 </div>
                 <div class="col-md-4">
