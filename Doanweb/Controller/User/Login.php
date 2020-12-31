@@ -15,6 +15,7 @@
 				$_SESSION["lgUserID"]=$row["UserID"];
 				$_SESSION["lgGroupID"]=$row["GroupID"];
 				header("location:index.php");
+                echo $_SESSION["lgGroupID"];
 			}
 			else
 			{

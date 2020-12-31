@@ -1,4 +1,4 @@
-<div style="width: 900px; float: right;margin-right: 50px">
+<div style="width: 900px; float: right;margin-right: 50px"><div class="tableadmin">
 <center><h2><a style="color: #ff6600;font-weight: bold;font-size: 25px" href="admin.php?mod=products&act=manage">Quản lý sản phẩm</a></h2></center><br>
 
 	<table width="100%">
@@ -19,7 +19,7 @@
 		echo "</td></tr>"; 
 	}
 	?>
-    </table>
+    </table></div>
 <br>
 <button style="background-color: #000"><a style="color: #fff;font-size: 20px" href="admin.php?mod=products&act=insert">Thêm</a></button>
 </div> <!-- /article -->

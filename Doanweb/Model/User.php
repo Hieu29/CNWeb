@@ -41,13 +41,17 @@ class User{
 		$sql="Update users set PassWord=md5('$newPassWord') where UserID=$userID";
 		return $this->da->ExecuteQuery($sql);
 	}
-	function ForgotPassword($userID,$newPassWord){
-		$sql="Select UserID from users where UserID=$userID";
-		$ret = $this->da->NumRows($sql);
-		if($ret==0)
-			return 0;
-		$sql="Update users set PassWord=md5('$newPassWord') where UserID=$userID";
-		return $this->da->ExecuteQuery($sql);
+	function ForgotPassword($name,$mail){
+		$sql="Select UserName from users where UserName='$name' and Email='$mail'";
+		$ret=$this->da->NumRows($sql);
+		if($ret!=0){
+		    return true;
+        }
+		    return false;
+	}
+	function updatepass($name,$pass){
+	    $sql="Update users set PassWord=md5('$pass') where UserName ='$name'";
+        return $this->da->ExecuteQuery($sql);
 	}
 	function __destruct(){
 		unset($this->da);

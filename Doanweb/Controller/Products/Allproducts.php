@@ -6,7 +6,12 @@
 	$count = $pro->CountProducts();
 	$findStart = Pages::findStart(MAX);
 	$findPage = Pages::findPages($count,MAX);
-
+    if(isset($_REQUEST['value'])){
+        $type=$_REQUEST['value'];
+        if($_REQUEST['value']='asc'){
+            $rs = $pro->getProductsByPrice($type);
+        }
+    }
 	if(!isset($_POST['selectPrice'])){	
 		$rs = $pro->GetProducts($findStart,MAX);
 	}

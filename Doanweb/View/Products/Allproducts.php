@@ -4,23 +4,37 @@
 <center>
   <form method="post" action="index.php?mod=products&act=allproducts">
     <span>Sắp xếp theo</span>
-    <select name="selectPrice" id="cbbGia">
+    <select name="selectPrice" id="cbbGia" class="sort">
           <option value="all" selected="selected">--Tất cả sản phẩm--</option>
           <option value="asc">Giá tăng dần</option>
           <option value="des">Giá giảm dần</option>
     </select>
-    <button type="submit" name="btnOK" style="font-size: 12px; border-radius: 10px; margin-left: 5px">Ok</button>
+<!--    <button type="submit" name="btnOK" style="font-size: 12px; border-radius: 10px; margin-left: 5px">Ok</button>-->
     </form>
 </center>
 <br>
+<script>
+    $(document).ready(function () {
+        $('select.sort').change(function (e) {
+            $.ajax({
+                type: "POST",
+                url:"Controller/Products/sort.php",
+                data:{'value':$(".sort option:selected").val()},
+                success:function (result) {
+                    $('#re').html(result);
+                }
+            });
+        });
+    });
 
+</script>
 <div class="main-ver2">
   <div class="fs-ihotslale hsalebotpro">
     <div class="owl-carousel fsihots owl-loaded owl-drag">
       <div class="owl-stage-outer">
         <div class="owl-stage" style="margin-left: 80px">
 
-
+<div id="re">
 <?php
   foreach($rs as $row){
     // $chuoi = <<<EOD
@@ -47,6 +61,7 @@
             // echo $chuoi;
   }
 ?>
+</div>
         </div>
       </div>    
     </div>

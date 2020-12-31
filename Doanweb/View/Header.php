@@ -14,8 +14,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>N123z.com</title>
-
-
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
@@ -32,6 +30,7 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     
     <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script language="javascript" type="text/javascript" src="js/function1.js"></script>
 
