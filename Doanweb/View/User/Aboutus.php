@@ -23,7 +23,7 @@
             <h3><a href="https://www.facebook.com/iamqdk">Quách Đăng Khoa</a></h3>
             <p style="font-weight: bold;color: #ff6600; font-size: 16px">43.01.104.078</p>
             <ul class="follow-us clearfix">
-              <li><a href="https://www.facebook.com/pham.minhluan.587"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.facebook.com/iamqdk/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
               <li><a href="https://instagram.com/?lang=vi"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
               <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
             </ul>
