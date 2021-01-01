@@ -5,7 +5,6 @@
         <p><label>Họ tên (*)</label><input type="text" name="txtFullName" id="txtFullName" size="30" style="margin-left: 28px;"/></p>
         <p><label>Tên đăng nhập (*)</label><input type="text" name="txtUserName" id="txtUserName" style="margin-left: 40px;"/></p>
         <p><label>Mật khẩu (*)</label><input type="password" name="txtPassWord" id="txtPassWord" style="margin-left: 78px;"/></p>
-        <p><label>Mật khẩu xác nhận (*)</label><input type="password" name="txtPrePass" id="txtPrePass" style="margin-left: 16px;" /></p>
         <p><label>Email (*)</label><input type="text" name="txtEmail" id="txtEmail" size="30" style="margin-left: 33px;"/></p>
         <p><label>&nbsp;</label><input type="submit" value="Đăng ký" name="btnRegister" id="btnRegister" style="font-weight:bold;background-color: #000"/></p>
         <p id="error" class="error"></p>
