@@ -8,10 +8,7 @@
 		$userName = trim($_POST["txtUserName"]);
 		$passWord = trim($_POST["txtPassWord"]);
 		$email = trim($_POST["txtEmail"]);
-		// echo$fullName;
-		// echo $email;
 		if($fullName!="" && $userName!="" && $passWord!="" && $email!=""){
-			// echo"YES ne";
 			$user = new User();
 			$res = $user->createNewUser($fullName,$userName,$passWord,$email);
 			if($res){

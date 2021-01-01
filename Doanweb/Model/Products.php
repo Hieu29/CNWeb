@@ -18,7 +18,7 @@
 			return $this->da->FetchAll($sql);
 		}
 		function GetProducts($start,$end){
-			$sql="Select ProductID,ProductName,ImageUrl,Price,Quantity from products order by ProductID desc limit $start,$end";
+			$sql="Select ProductID,ProductName,ImageUrl,Price,Quantity from products order by ProductID desc limit $start,$end"; //lay end gia tri tu start
 			return $this->da->FetchAll($sql);
 		}
 		function getProducts1(){

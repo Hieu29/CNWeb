@@ -8,18 +8,12 @@
 	$findPage = Pages::findPages($count,MAX);
     if(isset($_REQUEST['value'])){
         $type=$_REQUEST['value'];
-        if($_REQUEST['value']='asc'){
-            $rs = $pro->getProductsByPrice($type);
-        }
+        $rs = $pro->getProductsByPrice($type);
     }
 	if(!isset($_POST['selectPrice'])){	
 		$rs = $pro->GetProducts($findStart,MAX);
 	}
-	else{
-		$type=$_POST['selectPrice'];
-		if($type=='all') $rs = $pro->GetProducts($findStart,MAX);
-		else $rs = $pro->getProductsByPrice($type);
-	}
+
 
 	include_once("View/Products/Allproducts.php");
 ?>
