@@ -10,7 +10,7 @@
 		echo "<p>Mã đơn hàng: $row[OrderID]</p>";
 		echo "<p><b>Tên khách hàng: $row[FullName]</b></p>";
 		echo "<p><b>Ngày đặt hàng: $row[AddedDate]</b></p>";
-		echo "<p><b>Ngày đặt hàng: $row[Address]</b></p>";
+		echo "<p><b>Địa chỉ nhận hàng: $row[Address]</b></p>";
 		$item = $oi->GetOrderItemByOrder($row['OrderID']);
 		echo "<table>";
 		echo "<tr><th>Tên sản phẩm</th><th> Số lượng</th><th> Giá</th></tr>";
